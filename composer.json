@@ -10,12 +10,9 @@
     "require": {
         "silverstripe/framework": "^4.0"
     },
-    "extra": {
-        "installer-name": "start",
-        "expose": [
-            "dist",
-            "ico",
-            "images"
-        ]
+     "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
     }
 }
